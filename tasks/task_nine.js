@@ -1,5 +1,5 @@
 (function() {
-    window.addEventListener("load", function() {
+    window.addEventListener("loading", function() {
       console.log("Page loaded!");
     });
   })();

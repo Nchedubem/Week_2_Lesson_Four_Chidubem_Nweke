@@ -1,4 +1,4 @@
-function outerFunction() {
+function outerFunctions() {
     var outerVariable = "I'm from the outer function";
   
     function innerFunction() {
