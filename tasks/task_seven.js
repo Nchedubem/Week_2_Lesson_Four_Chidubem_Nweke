@@ -1,17 +1,16 @@
 function myFunction() {
-    var insideVariable = "Inside";
+    let insideMarket = "Inside";
   }
   myFunction();
-  console.log(insideVariable); 
+  console.log(insideMarket); 
   
-  
-  var outsideVariable = "Outside";
+  let outsideMarket = "Outside";
   
   function myFunction() {
-    console.log(outsideVariable);
+    console.log(outsideMarket);
   }
   
-  myFunction(); // "Outside"
+  myFunction(); 
   
   
   
